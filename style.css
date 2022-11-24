@@ -59,9 +59,36 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   /* add missing declarations */
+  max-width: 790px;
+  margin: 100px auto 50px;
 }
 
 /* add CSS rules for cards and their content here */
+
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background: #ffffff;
+  box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
+}
+
+.card-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 16px;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 25px;
+  height: 200px;
+  object-fit: contain;
+}
 
 .footer {
   display: flex;
